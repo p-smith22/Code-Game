@@ -1,4 +1,8 @@
 # Code-Game
+Required library -- colorama
+
+Download by typing "pip install colorama" into your terminal window
+
 A fun game to play with a friend! Similar to wordle, each of you will chose a code and try to guess each others. The game will tell you how many guesses were the right number in the right position.  
 
 The game works by prompting the user to input a code. It will send this value to a function and ensure that the input code is 1) all numbers and 2) 4 digits. The game will then ask the user to input their opponents guess. The game will automatically calcualte how many numbers match both of the following parameters: 1) are the correct value and 2) are in the correct position. The game will then ask the primary user for their guess, and the other player will do the inverse of what we just described. They will then read the number correct back to the primary user, and they can input the value. The game will alter back and forth in this fashion, and there are many funcitons to check all values and make sure they are valid. 
